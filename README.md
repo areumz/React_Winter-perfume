@@ -78,11 +78,53 @@ require와 default를 사용하여 했을 때 이미지까지 map 반복이 잘�
 * BrowserRouter 추가 후 에러 해결
 
 </details>
+  
+</br>
+
+<details>
+<summary>setInterval</summary>
+<div markdown="1">
+
+* setInterval을 useEffect 내에 넣어 'Best! 품절 임박' 문구를 주기적으로 깜빡이게 구현하려고함
+* 에러가 계속 발생했고, useEffect 밖으로 빼서 사용하는 것도 고민해봤으나   
+  구글링 했을 때 React의 기능적인 측면에서 setInterval이 부적합하다는 글이 있었음. 더 공부해봐야 할듯함
+* 아쉬운대로 setTimeout으로 설정하고, 작동 초 수가 길기 때문에 안전 장치로 clearTimeout도 추가함
+
+</details>
+  
+</br>
+
+<details>
+<summary>원격 저장소 연결</summary>
+<div markdown="1">
+
+* 빌드 파일 만든 후 github 배포하려했으나, 에러 메세지가 뜸
+* package.json 파일에 homepage url은 연결했지만 git 원격 저장소 연결을 안함
+* ```git remote add origin ~~~```으로 연결 후 재시도 했을 때 제대로 배포됨
+  
+</details>
+
+</br>
+
+<details>
+<summary>메인 페이지가 안 뜨는 문제</summary>
+<div markdown="1">
+
+* 배포된 페이지를 봤을 때 HOME 을 누르면 메인 페이지가 뜨지만 접속 당시에는   
+  상단 메뉴바 외에 아무 것도 뜨지 않음
+* github page 배포는 원칙적으로 SPA를 지원하지 않아서 이와 같이 Router를 사용해서 배포했을 때   
+  이런 문제가 자주 발생한다고함
+* HashRouter로 바꿔주니 해결됨
+
+</details>
 
 ## 5. 회고 / 느낀점
-> 리액트를 배우고 처음으로 개인 프로젝트를 만들어서 뿌듯하다   
-사실 정말 별거 아닌 기능이지만, Router문제도 해결하고 useState도 써보니 좋았다   
-버전 문제로 인한 오류 해결에 시간을 많이 허비한게 아쉽지만, 그 과정 중에  
-공식 문서나 구글링으로 공부가 된 것 같다
+> 첫 프로젝트와 비교했을 때 조금 더 리액트 사용이 손에 익은 것 같았다   
+  여전히 더 배워야하지만, 전보다 props 통해서 속성을 전달하거나 Router 사용 그리고   
+  Hook 사용에 대해 이해하고 사용한 느낌이 들었다
+  아쉬운 점은, 급하게 만들다보니 CSS를 세밀하게 모듈화하지않고 그냥 진행해서   
+  중간중간 스타일이 중복으로 적용되는 바람에 지저분한 className이 많이 들어간 것 같다
+  그리고 서버가 없다보니 json 파일이 아니라 임시 파일로 연결해서 단조롭게 된 것이 아쉽다
+  다음에는 SASS와 Redux를 좀 더 배워서 완성도 있게 만들어 보고싶다
 
 
