@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React_Winter-perfume/static/css/main.8929a820.chunk.css",
+    "main.js": "/React_Winter-perfume/static/js/main.66a4d5a1.chunk.js",
+    "main.js.map": "/React_Winter-perfume/static/js/main.66a4d5a1.chunk.js.map",
+    "runtime-main.js": "/React_Winter-perfume/static/js/runtime-main.734f66b4.js",
+    "runtime-main.js.map": "/React_Winter-perfume/static/js/runtime-main.734f66b4.js.map",
+    "static/js/2.46df758e.chunk.js": "/React_Winter-perfume/static/js/2.46df758e.chunk.js",
+    "static/js/2.46df758e.chunk.js.map": "/React_Winter-perfume/static/js/2.46df758e.chunk.js.map",
+    "index.html": "/React_Winter-perfume/index.html",
+    "static/css/main.8929a820.chunk.css.map": "/React_Winter-perfume/static/css/main.8929a820.chunk.css.map",
+    "static/js/2.46df758e.chunk.js.LICENSE.txt": "/React_Winter-perfume/static/js/2.46df758e.chunk.js.LICENSE.txt",
+    "static/media/buly.e2149e29.jpg": "/React_Winter-perfume/static/media/buly.e2149e29.jpg",
+    "static/media/App.css": "/React_Winter-perfume/static/media/carousel-third.6d314aed.jpg",
+    "static/media/jomalone.d75b44ed.jpg": "/React_Winter-perfume/static/media/jomalone.d75b44ed.jpg",
+    "static/media/perfume0.jpg": "/React_Winter-perfume/static/media/perfume0.369ea7e2.jpg",
+    "static/media/perfume1.jpg": "/React_Winter-perfume/static/media/perfume1.4f4a6173.jpg",
+    "static/media/perfume2.jpg": "/React_Winter-perfume/static/media/perfume2.0c538d7a.jpg",
+    "static/media/santa.b046dac5.jpg": "/React_Winter-perfume/static/media/santa.b046dac5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.734f66b4.js",
+    "static/js/2.46df758e.chunk.js",
+    "static/css/main.8929a820.chunk.css",
+    "static/js/main.66a4d5a1.chunk.js"
+  ]
+}
