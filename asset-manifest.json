@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React_Winter-perfume/static/css/main.8929a820.chunk.css",
-    "main.js": "/React_Winter-perfume/static/js/main.e704acce.chunk.js",
-    "main.js.map": "/React_Winter-perfume/static/js/main.e704acce.chunk.js.map",
+    "main.js": "/React_Winter-perfume/static/js/main.4d548d47.chunk.js",
+    "main.js.map": "/React_Winter-perfume/static/js/main.4d548d47.chunk.js.map",
     "runtime-main.js": "/React_Winter-perfume/static/js/runtime-main.734f66b4.js",
     "runtime-main.js.map": "/React_Winter-perfume/static/js/runtime-main.734f66b4.js.map",
     "static/js/2.cecd6f56.chunk.js": "/React_Winter-perfume/static/js/2.cecd6f56.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.734f66b4.js",
     "static/js/2.cecd6f56.chunk.js",
     "static/css/main.8929a820.chunk.css",
-    "static/js/main.e704acce.chunk.js"
+    "static/js/main.4d548d47.chunk.js"
   ]
 }
