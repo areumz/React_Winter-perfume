@@ -66,10 +66,18 @@ require와 default를 사용하여 했을 때 이미지까지 map 반복이 잘�
 * 실수로 span 태그 안에 Link 를 넣어서 작동 안됨
 * ```<Link to ="/"> <span>Home </span> </Link>``` 로 해결
 
-
 </details>
 
 </br>
+
+<details>
+<summary>라우터 사용 관련</summary>
+<div markdown="1">
+
+* BrowserRouter 없이 바로 Switch, Route 등을 쓰니 사용할 수 없다는 에러
+* BrowserRouter 추가 후 에러 해결
+
+</details>
 
 ## 5. 회고 / 느낀점
 > 리액트를 배우고 처음으로 개인 프로젝트를 만들어서 뿌듯하다   
