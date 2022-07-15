@@ -1,7 +1,7 @@
 # :pushpin: (리액트) 향수 쇼핑몰
 >향수 쇼핑몰 컨셉의 사이트를 리액트로 구현했습니다
 
->https://irrpl-ar.github.io/React_Winter-perfume
+>https://areumz.github.io/React_Winter-perfume
 
 </br>
 
